@@ -14,8 +14,8 @@ const OptionsFeedback = ({ options, clickFeedback }) => {
 };
 
 OptionsFeedback.propTypes = {
-  options: PropTypes.arrayOf(PropTypes.string.isRequired),
-  onLeaveFeedback: PropTypes.func.isRequired,
+  option: PropTypes.arrayOf(PropTypes.string.isRequired),
+  onLeaveFeedback: PropTypes.func,
 };
 
 export default OptionsFeedback;
